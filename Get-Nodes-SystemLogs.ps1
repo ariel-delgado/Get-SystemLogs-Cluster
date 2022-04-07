@@ -1,4 +1,4 @@
-﻿$StartTime = Get-Date
+$StartTime = Get-Date
 New-Item C:\ClusterInfo -Type directory 	#Create the workbench directory
 New-Item C:\ClusterInfo\ScriptTime.txt -ItemType file
 Add-Content C:\ClusterInfo\ScriptTime.txt "Started:  $StartTime"
